@@ -3,6 +3,7 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
+const fs = require('fs')
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
