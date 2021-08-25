@@ -7,6 +7,7 @@
 Created Express.js server using Node.js, writing routes to update a json file used in place of a database and deployed APP to Heroku.
 
 ![License Badge](https://img.shields.io/static/v1?label=license&message=MIT+License&color=brightgreen&style=for-the-badge)
+[Live Heroku Deployed Demo](https://peaceful-garden-28233.herokuapp.com/)
 <br />
 
 # Table of Contents 
