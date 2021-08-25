@@ -52,33 +52,3 @@ app.listen(PORT, ()=>   {
 
 
 
-
-
-// Routes
-// ===========================================================
-// app.get('/', (req, res) => {
-//    res.send('Welcome to the Star Wars Page!');
-//  });
- 
-//  app.get('/api/characters', (req, res) => {
-//    return res.json(characters);
-//  });
- 
-//  app.get('/api/characters/:character', (req, res) => {
-//    const chosen = req.params.character;
- 
-//    for (let i = 0; i < characters.length; i++) {
-//      if (chosen === characters[i].routeName) {
-//        return res.json(characters[i]);
-//      }
-//    }
-//    return res.send('No character found');
-//  });
- 
-//  // Create a ---POST--- route that adds new characters
-//  app.post('/api/characters', (req, res)=>{
-//    const addCharacter = req.body;
-//    characters.push(addCharacter);
-//    // characters.concat(addCharacter);
-//     res.json(characters)
-//  })
